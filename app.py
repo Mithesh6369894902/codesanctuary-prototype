@@ -51,7 +51,7 @@ def get_logs():
 # -------------------------------
 with st.sidebar:
     st.image("https://cdn-icons-png.flaticon.com/512/2721/2721298.png", width=100)
-    st.title("🧠 CodeSanctuary")
+    st.title("🔒 CodeSanctuary")
     page = st.radio("📍 Navigation", ["Monitor", "Recovery Logs", "Settings"], index=0)
     st.markdown("---")
     st.markdown("**Status:** 🟢 Online")
@@ -148,5 +148,5 @@ elif page == "Settings":
 # 🧩 Footer
 # -------------------------------
 st.markdown("---")
-st.caption("🧠 CodeSanctuary © 2026 • 💾 AI-Driven Code Recovery & Monitoring Dashboard")
+st.caption("🔒 CodeSanctuary © 2026 • 💾 AI-Driven Code Recovery & Monitoring Dashboard")
 
